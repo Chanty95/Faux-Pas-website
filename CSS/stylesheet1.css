@@ -101,9 +101,12 @@ font-family: 'Oswald', sans-serif;
 
 /* Contact page */
 
-* {
-  box-sizing: border-box;
+
+body {
+  padding: 40px 0;
+  font-family: Lato, sans-serif;
 }
+
 
 /* Style inputs */
 input[type=text], select, textarea {
