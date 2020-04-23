@@ -1,16 +1,51 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+  
+	   <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+	<link rel="stylesheet" href="CSS/stylesheet1.css"> 
+	  
+	  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  
+<style>
+	.mySlides {display:none;}
+		.fa {
+	  padding: 30px;
+	  font-size: 30px;
+			height:30px;
+	  width: 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 1px 2px;
+	  border-radius: 50%;
+	} 
 
-    <title>Hello, world!</title>
-  </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	.fa:hover {
+		opacity: 0.7;
+	}
+	.fa-instagram {
+	  background: #125688;
+	  color: white;
+	}
+		.fa-dribbble {
+	  background: #ea4c89;
+	  color: white;
+	}
+	
+</style>
+	  
+
+
+</head>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">
 	  <img src="Images/LOGO.jpg" alt="LOGO" width="200" height="85"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,29 +68,79 @@
 		<li class="nav-item">
         <a class="nav-link" href="contact page.html">CONTACT</a>
       </li>
+		 <li class="nav-item">
+        <a class="nav-link" href="">CART</a>
+	  </li>
 	  </ul>
-  </div>
-</nav>
-	
+	  </div>
+	</nav>
+
+
+
+	  <title>Faux Pas</title>
+
 <body>
-    <h1>WELCOME</h1>
+
+
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlides" alt="slide 1" src="images/Landing image 1 .jpg" style="width:100%">
+  <img class="mySlides" alt="slide 2" src="images/Landing image 2.jpg" style="width:100%">
+  <img class="mySlides" alt="slide 3" src="images/Landing image 3.jpg" style="width:100%">
+	<img class="mySlides" alt="slide 4" src="images/Landing image 4 .jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<h1>WELCOME TO FAUX PAS</h1>
 	
-	<p><h2>Vision</h2>
+	<h2>Vision</h2>
 	
-	In a world full of judgement and perfectionism, 
+	<p>In a world full of judgement and perfectionism, 
 	<br>
 	we belive that making mistakes is the key to do better, 
-	<br>because only then you can move forward.
+	<br>because only then you can move forward. </p>
 	
-	</p>
+	 <h2>What we do</h2>
+	<p>Our brand offers you many keys to becoming a confident individual.We are not the same but we all need guidance sometimes to mature in the individuals we are meant to be. We cares if we embarras ourselves in front of others, societal rules are subjective. We are made with all in mind.
+	<br>See our many services here: </p>
+	<p><a href="Services.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Services</a></p>
+
 	
-	<p> <h2>What we do</h2>
-	Our brand offers you many keys to becoming a confident individual.We are not the same but we all need guidance sometimes to mature in the individuals we are meant to be. We cares if we embarras ourselves in front of others, societal rules are subjective. We are made with all in mind. </p>
+		<p>&nbsp;</p>
+
+
+<!--Social media buttons-->
+	<a href="https://www.instagram.com/faux.pas.official/" class="fa fa-instagram"></a>
+	<a href="Blog.html" class="fa fa-dribbble"></a>
+	
+	
+</body>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  <footer class="jumbotron">
+		<strong>©2020 FAUX PAS</strong>
+			<p class="text-right">&nbsp;</p>
+	
+</footer>
+	
 </html>
