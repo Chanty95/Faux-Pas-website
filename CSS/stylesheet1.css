@@ -14,8 +14,6 @@ ul{color:#352D76;}
 .btn-outline-primary{color:#661971;}
 
 
-/* Contact page */
-
 
 
 
@@ -29,6 +27,12 @@ ul{color:#352D76;}
   padding-bottom: 50px;
   padding-left: 80px;
 }
+/*Customized services page*/
+#font-id1{color:#F8EAFD;}
+#font-id2{color:#F8EAFD}
+
+/* Services page */
+#font-id3{color:#F8EAFD;}
 
   
 /*colour palette everything*/
